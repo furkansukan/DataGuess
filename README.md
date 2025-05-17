@@ -3,7 +3,7 @@
 * **Amaç:** Görüntülerdeki yangınları gerçek zamanlı olarak tespit etmek.
 * **Teknolojiler:** Python, YOLOv8, OpenCV.
 * **Model:** Eğitilmiş YOLOv8 modeli (`best.pt`).
-* **Kullanım Alanları:** Endüstriyel tesisler, orman yangını izleme sistemleri, güvenlik kameraları.([GitHub][1])
+* **Kullanım Alanları:** Endüstriyel tesisler, orman yangını izleme sistemleri, güvenlik kameraları.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## 🧠 Model Eğitimi ve Kullanımı
 
-Proje, önceden eğitilmiş bir YOLOv8 modelini kullanır. Model, yangın içeren ve içermeyen görüntülerle eğitilmiştir. Kullanıcı, `app.py` dosyasını çalıştırarak modelin bir görüntüde yangın tespiti yapmasını sağlayabilir.([GitHub][2])
+Proje, önceden eğitilmiş bir YOLOv8 modelini kullanır. Model, yangın içeren ve içermeyen görüntülerle eğitilmiştir. Kullanıcı, `app.py` dosyasını çalıştırarak modelin bir görüntüde yangın tespiti yapmasını sağlayabilir.
 
 ---
 
