@@ -2,6 +2,8 @@ import streamlit as st
 from ultralytics import YOLO
 import cv2
 import time
+import os
+os.environ['YOLO_CONFIG_DIR'] = '/tmp/Ultralytics'
 
 st.set_page_config(page_title="Fire Detection", layout="centered")
 
